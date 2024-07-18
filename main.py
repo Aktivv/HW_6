@@ -1,11 +1,11 @@
 from config import dp
 from aiogram.utils import executor
 import logging
-from handlers import commands, echo, audios
+from handlers import commands, echo, audios, quiz
 
 commands.register_commands(dp)
 audios.register_audio(dp)
-
+quiz.register_quiz(dp)
 
 
 
