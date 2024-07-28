@@ -1,7 +1,8 @@
 from config import dp, bot, Admin
 from aiogram.utils import executor
 import logging
-from handlers import commands, echo, audios, quiz, online_shop
+from handlers import commands, echo, audios, quiz
+import online_shop
 import buttons
 
 
